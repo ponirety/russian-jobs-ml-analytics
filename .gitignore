@@ -1,0 +1,23 @@
+# Системный мусор Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+env/
+ENV/
+
+# Jupyter Notebook (скрытые файлы проверки)
+.ipynb_checkpoints
+
+# НАШИ ДАННЫЕ И МОДЕЛИ (не грузим их на GitHub, они тяжелые)
+data/raw/*.csv
+data/processed/*.csv
+models/*.joblib
+
+# Настройки редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
